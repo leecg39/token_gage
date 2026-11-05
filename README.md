@@ -2,9 +2,10 @@
 
 Herdr 앱 하단 상태바 왼쪽에 AI 서비스별 토큰 사용량(%)과 리셋까지 남은 시간을 표시하는 mod입니다.
 
-```
-사용  [Claude] ▰▱ 38% 3h 13m · 59% 2d 6h  [Codex] ▰▰ 93% 5d 8h  [Antigravity] Gemini 0% 5h 0m · 18% 1d 17h ...  ⟳ │ This computer · 4 agents
-```
+![token-gage 상태바](docs/statusbar.png)
+
+> 실제로는 한 줄입니다. 읽기 쉽도록 Antigravity와 Devin 사이에서 두 줄로 나누고 2배로 키웠습니다.
+> 위 줄은 Claude · Codex · Antigravity, 아래 줄은 Devin · Grok · ⟳(새로고침) · 기존 Herdr 상태 정보입니다.
 
 | 서비스 | 표시 | 출처 | 조회 주기 |
 |---|---|---|---|
