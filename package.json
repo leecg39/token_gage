@@ -1,0 +1,12 @@
+{
+  "name": "token-gage",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Herdr 하단 상태바용 AI 토큰 사용량 게이지 mod",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "coverage": "node --test --experimental-test-coverage --test-coverage-include='src/**' tests/*.test.js",
+    "install-mod": "sh scripts/install.sh"
+  }
+}

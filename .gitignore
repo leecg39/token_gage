@@ -1,0 +1,5 @@
+# 개인 Herdr 레이아웃 백업 (로컬 전용)
+backup/
+node_modules/
+coverage/
+.DS_Store

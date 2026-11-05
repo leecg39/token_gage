@@ -1,0 +1,11 @@
+{
+  "userStatus": {
+    "planStatus": {
+      "planInfo": { "planName": "Pro", "billingStrategy": "BILLING_STRATEGY_QUOTA" },
+      "dailyQuotaRemainingPercent": 100,
+      "weeklyQuotaRemainingPercent": 60,
+      "dailyQuotaResetAtUnix": "1793952000",
+      "weeklyQuotaResetAtUnix": "1794124800"
+    }
+  }
+}
