@@ -1,5 +1,5 @@
 #!/bin/sh
-# src/token-gage를 Herdr mods 폴더로 복사하고 herdr-app check로 검사한다.
+# mods/token-gage를 Herdr mods 폴더로 복사하고 herdr-app check로 검사한다.
 set -eu
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 HERDR_HOME="${HERDR_APP_HOME:-$HOME/.config/herdr-app}"
@@ -13,6 +13,6 @@ fi
 
 mkdir -p "$DEST"
 # Herdr가 직접 쓰는 jsconfig.json, *.d.ts는 지우지 않는다.
-rsync -a --delete --exclude 'jsconfig.json' --exclude '*.d.ts' "$ROOT/src/token-gage/" "$DEST/"
+rsync -a --delete --exclude 'jsconfig.json' --exclude '*.d.ts' "$ROOT/mods/token-gage/" "$DEST/"
 echo "복사 완료: $DEST"
 "$HERDR_APP" check "$DEST"

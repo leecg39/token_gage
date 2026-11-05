@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { isDue, dueProviders, mergeResult, applyResult } from "../src/token-gage/scheduler.js";
-import { okResult, errorResult, loginResult, makeWindow } from "../src/token-gage/model.js";
+import { isDue, dueProviders, mergeResult, applyResult } from "../mods/token-gage/scheduler.js";
+import { okResult, errorResult, loginResult, makeWindow } from "../mods/token-gage/model.js";
 import { NOW, MIN } from "./helpers.js";
 
 const P = { id: "claude", intervalMs: 2 * MIN };

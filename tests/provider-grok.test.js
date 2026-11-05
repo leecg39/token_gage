@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { pickGrokSession, parseGrokBilling, fetchGrok } from "../src/token-gage/provider-grok.js";
+import { pickGrokSession, parseGrokBilling, fetchGrok } from "../mods/token-gage/provider-grok.js";
 import { NOW, HOUR, jsonFixture, fakeFetch, fakeFiles, baseDeps } from "./helpers.js";
 
 const AUTH_PATH = "/Users/me/.grok/auth.json";

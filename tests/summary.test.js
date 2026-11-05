@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { groupWindows, tooltipText, segmentKind } from "../src/token-gage/summary.js";
-import { okResult, errorResult, loginResult, makeWindow } from "../src/token-gage/model.js";
+import { groupWindows, tooltipText, segmentKind } from "../mods/token-gage/summary.js";
+import { okResult, errorResult, loginResult, makeWindow } from "../mods/token-gage/model.js";
 import { NOW, HOUR, MIN } from "./helpers.js";
 
 const w = (label, usedPercent, resetsAt, group) => makeWindow({ label, usedPercent, resetsAt, group });

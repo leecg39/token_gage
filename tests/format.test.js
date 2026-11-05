@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { formatRemaining, clampPercent, usageLevel, windowLabel, formatPercent } from "../src/token-gage/format.js";
+import { formatRemaining, clampPercent, usageLevel, windowLabel, formatPercent } from "../mods/token-gage/format.js";
 import { MIN, HOUR, DAY } from "./helpers.js";
 
 test("formatRemaining: 1시간 미만은 분만", () => {

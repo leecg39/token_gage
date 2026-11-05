@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { parseDevinCredentials, parseDevinStatus, fetchDevin } from "../src/token-gage/provider-devin.js";
+import { parseDevinCredentials, parseDevinStatus, fetchDevin } from "../mods/token-gage/provider-devin.js";
 import { NOW, jsonFixture, fakeFetch, fakeFiles, baseDeps } from "./helpers.js";
 
 const TOML = [

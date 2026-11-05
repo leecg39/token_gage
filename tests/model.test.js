@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import {
   okResult, errorResult, loginResult, makeWindow, parseTimeMs, peakPercent, isObject,
-} from "../src/token-gage/model.js";
+} from "../mods/token-gage/model.js";
 import { NOW } from "./helpers.js";
 
 test("parseTimeMs: ISO 문자열", () => {

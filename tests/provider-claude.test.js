@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { parseClaudeUsage, fetchClaude } from "../src/token-gage/provider-claude.js";
+import { parseClaudeUsage, fetchClaude } from "../mods/token-gage/provider-claude.js";
 import { NOW, HOUR, jsonFixture, fakeExec, fakeFetch, baseDeps } from "./helpers.js";
 
 const CRED = JSON.stringify({ claudeAiOauth: { accessToken: "tok-claude", expiresAt: NOW + HOUR } });

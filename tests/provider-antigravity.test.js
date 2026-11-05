@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import {
   parseAgyVersion, versionAtLeast, parseAgyUsage, groupLabel, fetchAntigravity,
-} from "../src/token-gage/provider-antigravity.js";
+} from "../mods/token-gage/provider-antigravity.js";
 import { NOW, fixture, fakeExec, baseDeps } from "./helpers.js";
 
 test("parseAgyVersion / versionAtLeast", () => {

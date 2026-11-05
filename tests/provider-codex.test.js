@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { parseCodexUsage, fetchCodex } from "../src/token-gage/provider-codex.js";
+import { parseCodexUsage, fetchCodex } from "../mods/token-gage/provider-codex.js";
 import { NOW, jsonFixture, fakeFetch, fakeFiles, baseDeps } from "./helpers.js";
 
 const AUTH = JSON.stringify({ tokens: { access_token: "tok-codex", account_id: "acc-1" } });

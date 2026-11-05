@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "node --test tests/*.test.js",
-    "coverage": "node --test --experimental-test-coverage --test-coverage-include='src/**' tests/*.test.js",
+    "coverage": "node --test --experimental-test-coverage --test-coverage-include='mods/**' tests/*.test.js",
     "install-mod": "sh scripts/install.sh"
   }
 }

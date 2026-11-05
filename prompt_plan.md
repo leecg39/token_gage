@@ -21,7 +21,7 @@
 ## 구조
 ```
 token_gage/
-  src/token-gage/        mod 원본 (scripts/install.sh로 ~/.config/herdr-app/mods/token-gage에 복사)
+  mods/token-gage/       mod 원본 (scripts/install.sh로 ~/.config/herdr-app/mods/token-gage에 복사)
     main.js              화면(View). herdr API를 provider에 주입
     mod.json             { "place": "none" }
     format.js            남은 시간·퍼센트·색 단계 (순수 함수)
